@@ -14,7 +14,7 @@ if st.button("Check News"):
         transform_input = vectorizer.transform([inputn])
         prediction = model.predict(transform_input)
 
-        if prediction[0] == 0:
+        if prediction[0] == 1:
             st.success("The News is Real! ")
         else:
             st.error("The News is Fake! ")
