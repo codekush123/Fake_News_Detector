@@ -19,4 +19,4 @@ if st.button("Check News"):
         else:
             st.error("The News is Fake! ")
     else:
-        st.warning("Please enter some text to Analyze. ") 
+        st.warning("Please enter some text to Analyze.") 
